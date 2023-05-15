@@ -193,7 +193,7 @@ class MyApplication2(QtWidgets.QMainWindow):
 
     def open_program1(self):
         # Define the path to the program to run
-        program_path = "/Capstone/hello_flask/hello_flask/rPTO.py"
+        program_path = "FultonA993/CapstoneProject/hello_flask/rPTO.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path])
         self.close()
@@ -206,7 +206,7 @@ class MyApplication2(QtWidgets.QMainWindow):
             self.textbox4.setText('')
             self.textbox5.setText('')
     def edit_data(self, dictionary):
-        program_path = "/Capstone/hello_flask/hello_flask/editInfo.py"
+        program_path = "FultonA993/CapstoneProject/hello_flask/editInfo.py"
         subprocess.Popen([sys.executable, program_path])
 
         key_entry = self.textbox3
