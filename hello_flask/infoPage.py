@@ -251,7 +251,7 @@ class MyApplication3(QtWidgets.QMainWindow):
             self.textbox7.setText('')
 
     def edit_data(self):
-        program_path = "/Capstone/hello_flask/hello_flask/editInfo.py"
+        program_path = "FultonA993/CapstoneProject/hello_flask/editInfo.py"
         subprocess.Popen([sys.executable, program_path])
 
 
