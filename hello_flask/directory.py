@@ -85,7 +85,7 @@ class MyApplication(QtWidgets.QMainWindow):
 
     def goHome(self):
         # Define the path to the program to run
-        #program_path4 = "/Capstone/hello_flask/hello_flask/frontPage.py"
+        #program_path4 = "FultonA993/CapstoneProject/hello_flask/frontPage.py"
         # Run the program using subprocess
         #subprocess.Popen([sys.executable, program_path4])
         self.close()
