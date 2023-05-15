@@ -8,7 +8,7 @@ class MyMainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Forsyth Family Medical Practice")
         # Load the pixmap
-        pixmap = QPixmap('\Capstone\hello_flask\CapstoneLogoPNG.png')
+        pixmap = QPixmap('FultonA993/CapstoneProject/hello_flask/CapstoneLogoPNG.png')
         self.pixmap = pixmap
         
         # Set the size of the main window to match the pixmap size
@@ -18,7 +18,7 @@ class MyMainWindow(QMainWindow):
         self.paintEvent = self.draw_pixmap
 
         # Set the stylesheet of the main window to use the pixmap as the background
-        self.setStyleSheet("background-image: url(\Capstone\hello_flask\CapstoneLogoPNG.png);")
+        self.setStyleSheet("background-image: url(FultonA993/CapstoneProject/hello_flask/CapstoneLogoPNG.png);")
 
     def draw_pixmap(self, event):
         painter = QPainter(self)
