@@ -7,7 +7,7 @@ import subprocess
 import sys
 from databaseconn import connect_db
 from myDictionary import dictionary
-from employee_data import
+from employee_data import employee_data
 
 class MyApplication(QtWidgets.QMainWindow):
     def __init__(self):
@@ -102,7 +102,7 @@ class MyApplication(QtWidgets.QMainWindow):
 
     #this code uses myDictionary
     def populate_list(self):
-        for key, value in dictionary.items():
+        for key, value in employee_data.items():
             item_text = f"{value['job_title']} {value['first_name']} {value['last_name']}"
             item = QtWidgets.QListWidgetItem(item_text)
             self.list_box.addItem(item)
