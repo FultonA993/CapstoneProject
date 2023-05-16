@@ -7,6 +7,7 @@ import subprocess
 import sys
 from databaseconn import connect_db
 from myDictionary import dictionary
+from employee_data import
 
 class MyApplication(QtWidgets.QMainWindow):
     def __init__(self):
@@ -100,12 +101,12 @@ class MyApplication(QtWidgets.QMainWindow):
                 item.setHidden(True)
 
     #this code uses myDictionary
-    '''def populate_list(self):
+    def populate_list(self):
         for key, value in dictionary.items():
             item_text = f"{value['job_title']} {value['first_name']} {value['last_name']}"
             item = QtWidgets.QListWidgetItem(item_text)
             self.list_box.addItem(item)
-    '''
+    
 
     def clear_data(self):
             # Clear
@@ -117,11 +118,11 @@ class MyApplication(QtWidgets.QMainWindow):
         self.fetch_employee_info(name)
         self.open_program4()
 
-    def populate_listbox(self):
+    '''def populate_listbox(self):
                 names = fetch_employees()
-                self.list_box.addItems(names)
+                self.list_box.addItems(names)'''
 
-    def fetch_employee_info(self, name):
+    '''def fetch_employee_info(self, name):
         # Call the connect_to_db function to establish a connection to the database
         cursor = connect_db()
         query = f"SELECT * FROM Employee WHERE FirstName='{name.split()[0]}' AND LastName='{name.split()[1]}'"
@@ -130,7 +131,7 @@ class MyApplication(QtWidgets.QMainWindow):
         if row:
             return {'Name': f"{row[1]} {row[2]}", 'Position': row[3], 'Email': row[4]}
         else:
-            return {'Name': 'Not found', 'Position': 'Not found', 'Email': 'Not found'}
+            return {'Name': 'Not found', 'Position': 'Not found', 'Email': 'Not found'}'''
 
     def open_program4(self):
             # Define the path to the program to run
@@ -139,14 +140,14 @@ class MyApplication(QtWidgets.QMainWindow):
             # Run the program using subprocess
             subprocess.Popen([sys.executable, program_path4])
 
-def fetch_employees(): 
+'''def fetch_employees(): 
         # Call the connect_to_db function to establish a connection to the database
         cursor = connect_db()
         query = "SELECT EmployeeID, Title, FirstName, LastName FROM Employee"
         cursor.execute(query)
         result = cursor.fetchall()
         name_list = [f"{name[1]} {name[2]} {name[3]} ({name[0]})" for name in result]
-        return name_list
+        return name_list'''
 
 if __name__ == '__main__':
     import sys
