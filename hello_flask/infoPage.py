@@ -176,7 +176,7 @@ class MyApplication3(QtWidgets.QMainWindow):
         #subprocess.Popen([sys.executable, program_path4])
         self.close()
 
-    def display_record(self, key):
+    '''def display_record(self, key):
         key = self.search_bar.text()
 
         # Fetch the employee record from the database
@@ -204,7 +204,7 @@ class MyApplication3(QtWidgets.QMainWindow):
             self.textbox8.setText('')
             self.textbox9.setText('')
             
-    '''def search_item(self, search_string):
+    def search_item(self, search_string):
         # search the dictionary for the corresponding record
         employee_dict = fetch_employees()
         employee = employee_dict.get(1234)
