@@ -101,11 +101,11 @@ class MyApplication(QtWidgets.QMainWindow):
                 item.setHidden(True)
 
     #this code uses myDictionary
-    def populate_list(self):
+    '''def populate_list(self):
         for key, value in employee_data.items():
             item_text = f"{value['job_title']} {value['first_name']} {value['last_name']}"
             item = QtWidgets.QListWidgetItem(item_text)
-            self.list_box.addItem(item)
+            self.list_box.addItem(item)'''
     
 
     def clear_data(self):
