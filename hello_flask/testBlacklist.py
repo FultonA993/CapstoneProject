@@ -122,7 +122,7 @@ class MyApplication5(QtWidgets.QMainWindow):
         #subprocess.Popen([sys.executable, program_path4])
         self.close()
 
-    def search_item(self, search_string):
+    '''def search_item(self, search_string):
         # search the dictionary for the corresponding record
         record = None
         for key, value in dictionary.items():
@@ -133,13 +133,13 @@ class MyApplication5(QtWidgets.QMainWindow):
         if record is not None:
             self.list_box.setText(record['blacklist'])
         else:
-            self.list_box.setText('')
+            self.list_box.setText('')'''
 
     def clear_data(self):
             # Clear
             self.search_bar.setText('')
 
-    def display_record(self, key):
+    '''def display_record(self, key):
         key = self.search_bar.text()
 
         # Fetch the employee record from the database
@@ -169,7 +169,7 @@ def fetch_employee_by_id(emp_id):
                     'first_name': row[3],
                     'last_name': row[2],
                 }
-                return employee
+                return employee'''
             
 if __name__ == '__main__':
     import sys
