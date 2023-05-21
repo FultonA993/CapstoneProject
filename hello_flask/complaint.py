@@ -66,8 +66,6 @@ class MyApplication_complaints(QtWidgets.QMainWindow):
         self.search_bar = QtWidgets.QLineEdit()
         self.search_bar.textChanged.connect(self.search_item)
         self.search_bar.setStyleSheet("background-color: white;")
-
-        #add editable textbox and submit button
         
         # Create the search layout
         search_layout = QtWidgets.QHBoxLayout()
