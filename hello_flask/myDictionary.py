@@ -46,11 +46,7 @@ dictionary = {
     1045: {'key': '1045', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '100,000' },
     1046: {'key': '1046', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '102,000' },
     1047: {'key': '1047', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '77,000' },
-    1048: {'key': '1048', 'blacklist': '1(Malpractice)', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '61,000' },
-    1049: {'key': '1049', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '64,000' },
-    1050: {'key': '1050', 'blacklist': 'n/a', 'credentials': 'Renew(5/18/2023)', 'hours_worked': '40', 'salary': '62,000' },
-    1051: {'key': '1051', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '36', 'salary': '82,000' },
-    1052: {'key': '1052', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '99,000' },
+    1048: {'key': '1048', 'blacklist': '1(Malpractice)', 'credentials': 'Valid', 'hours_worked':
     1053: {'key': '1053', 'blacklist': 'n/a', 'credentials': 'Invalid', 'hours_worked': '42', 'salary': '88,000' },
     1054: {'key': '1054', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '81,000' },
     1055: {'key': '1055', 'blacklist': 'n/a', 'credentials': 'Valid', 'hours_worked': '40', 'salary': '79,000' },
