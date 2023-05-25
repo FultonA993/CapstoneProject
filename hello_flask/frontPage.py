@@ -163,8 +163,6 @@ class MyApplication(QtWidgets.QMainWindow):
         else:
             self.list_box.setCurrentItem(None)
 
-    #def clear_data(self):
-
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])
     window = MyApplication()
