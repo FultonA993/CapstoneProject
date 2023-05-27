@@ -101,56 +101,56 @@ class MyApplication(QtWidgets.QMainWindow):
         
     def open_program1(self):
         # Define the path to the program to run
-        program_path = "FultonA993/CapstoneProject/hello_flask/directory.py"
+        program_path = "CapstoneProject/hello_flask/directory.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path])
 
         
     def open_program2(self):
         # Define the path to the program to run
-        program_path2 = "FultonA993/CapstoneProject/hello_flask/payroll.py"
+        program_path2 = "CapstoneProject/hello_flask/payroll.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path2])
         
 
     def open_program3(self):
         # Define the path to the program to run
-        program_path3 = "FultonA993/CapstoneProject/hello_flask/infoPage.py"
+        program_path3 = "CapstoneProject/hello_flask/infoPage.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path3])
         
 
     def open_program4(self):
         # Define the path to the program to run
-        program_path4 = "FultonA993/CapstoneProject/hello_flask/morePage.py"
+        program_path4 = "CapstoneProject/hello_flask/morePage.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path4])
         
 
     def open_program5(self):
         # Define the path to the program to run
-        program_path5 = "FultonA993/CapstoneProject/hello_flask/testBlacklist.py"
+        program_path5 = "CapstoneProject/hello_flask/testBlacklist.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path5])
         
 
     def open_program6(self):
         # Define the path to the program to run
-        program_path6 = "FultonA993/CapstoneProject/hello_flask/testLicenses.py"
+        program_path6 = "CapstoneProject/hello_flask/testLicenses.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path6])
         
 
     def open_program7(self):
         # Define the path to the program to run
-        program_path7 = "FultonA993/CapstoneProject/hello_flask/complaint.py"
+        program_path7 = "CapstoneProject/hello_flask/complaint.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path7])
         
 
     def quit_app(self):
         # Define the path to the program to run
-        program_path7 = "FultonA993/CapstoneProject/hello_flask/main.py"
+        program_path7 = "CapstoneProject/hello_flask/main.py"
         # Run the program using subprocess
         subprocess.Popen([sys.executable, program_path7])
         self.app.quit()
