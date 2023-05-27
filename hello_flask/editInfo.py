@@ -243,33 +243,6 @@ class MyApplication_edit(QtWidgets.QMainWindow):
             self.textbox13.setText('')
             self.editBox.setText('')
             
-    def update_data(self, key, new_value):
-        if key == 'Employee ID':
-            dictionary['Employee ID'] = new_value
-        elif key == 'First Name':
-            dictionary['First Name'] = new_value
-        elif key == 'Last Name':
-            dictionary['Last Name'] = new_value
-        elif key == 'Email':
-            dictionary['Email'] = new_value
-        elif key == 'Phone Number':
-            dictionary['Phone Number'] = new_value
-        elif key == 'Title':
-            dictionary['Title'] = new_value
-        elif key == 'Department':
-            dictionary['Department'] = new_value
-        elif key == 'Blacklist Status':
-            dictionary['Blacklist Status'] = new_value
-        elif key == 'Credential Status':
-            dictionary['Credential Status'] = new_value
-        elif key == 'Salary':
-            dictionary['Salary'] = new_value
-        elif key == 'Hours Worked':
-            dictionary['Hours Worked'] = new_value
-        elif key == 'Age':
-            dictionary['age'] = new_value
-        elif key == 'Sex':
-            dictionary['sex'] = new_value
     def save_data(self):
         self.close()
 
