@@ -175,7 +175,7 @@ class MyApplication2(QtWidgets.QMainWindow):
         #subprocess.Popen([sys.executable, program_path4])
         self.close()
 
-    #adjust this method 
+    '''
     def search_item(self, search_string):
         # search the dictionary for the corresponding record
         record = None
@@ -189,7 +189,7 @@ class MyApplication2(QtWidgets.QMainWindow):
             self.textbox5.setText(record['hours_worked'])
         else:
             self.textbox4.setText('')
-            self.textbox5.setText('')
+            self.textbox5.setText('')'''
 
     def open_program1(self):
         # Define the path to the program to run
@@ -217,7 +217,7 @@ class MyApplication2(QtWidgets.QMainWindow):
         # update the dictionary with the new value
         dictionary[key] = new_value
 
-    def display_record(self, key):
+   ''' def display_record(self, key):
         key = self.search_bar.text()
 
         # Fetch the employee record from the database
@@ -247,7 +247,7 @@ def fetch_employee_by_id(emp_id):
                     'first_name': row[3],
                     'last_name': row[2],
                 }
-                return employee
+                return employee'''
 
 if __name__ == '__main__':
     import sys
