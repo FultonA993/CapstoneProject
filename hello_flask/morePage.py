@@ -78,10 +78,6 @@ class MyApplication4(QtWidgets.QMainWindow):
         self.app.quit()
 
     def goHome(self):
-        # Define the path to the program to run
-        #program_path4 = "/Capstone/hello_flask/hello_flask/frontPage.py"
-        # Run the program using subprocess
-        #subprocess.Popen([sys.executable, program_path4])
         self.close()
 
     def search_item(self, text):
